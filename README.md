@@ -19,7 +19,7 @@
 <tr><td bgcolor="E0E0E0" nowrap><b>User Choice</b><td bgcolor=#FFFFFF nowrap>.sbconsole_auto_file
 <tr><td bgcolor="E0E0E0" nowrap><b>Icon Handler CLSID</b><td bgcolor=#FFFFFF nowrap>&nbsp;
 <tr><td bgcolor="E0E0E0" nowrap><b>Product Name</b><td bgcolor=#FFFFFF nowrap>SurveyBuilderConsole File
-<tr><td bgcolor="E0E0E0" nowrap><b>Product Version</b><td bgcolor=#FFFFFF nowrap>{Current}
+<tr><td bgcolor="E0E0E0" nowrap><b>Product Version</b><td bgcolor=#FFFFFF nowrap><a href="https://github.com/surveybuilderteams/surveybuilder/releases">Version</a>
 <tr><td bgcolor="E0E0E0" nowrap><b>Product Description</b><td bgcolor=#FFFFFF nowrap>This is for SurveyBuilder Console file
 <tr><td bgcolor="E0E0E0" nowrap><b>Company Name</b><td bgcolor=#FFFFFF nowrap>SurveyBuilder
 </table><p>
@@ -40,7 +40,7 @@
 <tr><td bgcolor="E0E0E0" nowrap><b>User Choice</b><td bgcolor=#FFFFFF nowrap>&nbsp;
 <tr><td bgcolor="E0E0E0" nowrap><b>Icon Handler CLSID</b><td bgcolor=#FFFFFF nowrap>&nbsp;
 <tr><td bgcolor="E0E0E0" nowrap><b>Product Name</b><td bgcolor=#FFFFFF nowrap>SurveyBuilderConsole File
-<tr><td bgcolor="E0E0E0" nowrap><b>Product Version</b><td bgcolor=#FFFFFF nowrap>{Current}
+<tr><td bgcolor="E0E0E0" nowrap><b>Product Version</b><td bgcolor=#FFFFFF nowrap><a href="https://github.com/surveybuilderteams/surveybuilder/releases">Version</a>
 <tr><td bgcolor="E0E0E0" nowrap><b>Product Description</b><td bgcolor=#FFFFFF nowrap>This is for SurveyBuilder Console file
 <tr><td bgcolor="E0E0E0" nowrap><b>Company Name</b><td bgcolor=#FFFFFF nowrap>SurveyBuilder
 </table><p>
