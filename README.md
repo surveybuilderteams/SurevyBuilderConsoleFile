@@ -46,3 +46,45 @@
 </table><p>
 
 </body></html>
+
+***
+
+# How to use
+
+### Setting up(pt.1, setting up folders/startup's)
+1. Go to RegEdit(Registry Editor)
+2. Add folder name it ".sbconsole" in HKEY_CLASSES_ROOT
+3. add 3 new files
+ - new: "String", name: "(Default)", value: ".sbconsole_auto_file"
+ - new: "String", name: "Content Type", value: "text/sbconsole"
+ - new: "String", name: "PerceivedType", value: "document"
+4. Add another folder name it ".sbconsole_auto_file" in the HKEY_CLASSES_ROOT
+5. add 2 files
+ - new: "String", name: "(Default)", value: "SurveyBuilderConsole"
+ - new: "DWORD (32-bit) value", name: "EditFlag", value="20000", base: "hexadecimal"
+
+### Setting up(pt.2, Icon)
+1. Inside of ".sbconole_auto_file" click new>key(2x)
+2. the first key name it "DefaultIcon" and the second key name it "shell"
+3. Inside the "DefaultIcon"
+ - new: "String", name: "(Default)", value: "C:\xampp\htdocs\SurveyBuilder\favicon.ico,0" (or wherever the surveybuilder icon is located).
+
+### Setting up(pt.3, Shell)
+1. Inside of "shell" click new>key(2x)
+2. name the first key "edit" and the second key "open"
+3. go to "edit"
+ - new: "String", name: "(Default)", value: ""
+ 3a. new>key name it "command
+ 3b. in "command" 
+- new: "Expandable String value", name: "(Default)", value: "%SystemRoot%\system32\NOTEPAD.EXE %1"
+4. Go to "open"
+ - new: "String", name: "(Default)", value: ""
+ 4a. new>key name it "command"
+ 4b. in "command"
+ - new: "Expandable String value", name: "(Default)", value: "%SystemRoot%\system32\NOTEPAD.EXE %1"
+ 
+ ### Finished
+ 
+
+ 
+
