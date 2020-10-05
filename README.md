@@ -1,5 +1,5 @@
 # SurevyBuilderConsoleFile
-<html><head><title>File Types List</title></head>
+<html>
 <body>
  <h3>File Types List</h3>
 <br><p><table border="1" cellpadding="5">
